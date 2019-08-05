@@ -15,10 +15,12 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="Title"
             android:id="@+id/editText"/>
 
         <EditText
             android:layout_width="match_parent"
+            android:autofillHints="Description"
             android:layout_height="wrap_content"
             android:id="@+id/editText2"/>
 
@@ -27,6 +29,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="price"
             android:id="@+id/editText3"/>
 
 
@@ -50,6 +53,6 @@
     <ImageView
         android:id="@+id/imgView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
